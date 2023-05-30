@@ -1,0 +1,24 @@
+{
+  "name": "homie",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.2.3",
+    "next": "13.4.4",
+    "range-slider-input": "^2.4.4",
+    "rc-slider": "^10.2.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.4",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-slider": "^2.0.4"
+  }
+}

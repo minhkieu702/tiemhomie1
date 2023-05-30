@@ -1,0 +1,120 @@
+.bgHeader{
+    background-color: #F79C43;
+}
+
+.logo {
+    display: flex !important;
+    align-items: center;
+    /* justify-content: space-between; */
+
+}
+
+.logo img {
+    width: 73px;
+    height: 73px;
+}
+
+.logo p {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 34px;
+    color: #000000;
+    margin-left: 16px;
+}
+
+.logoTitle {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.topLeft {
+    display: flex;
+}
+
+.topLeft :first-child {
+    display: flex;
+}
+
+.topLeft :first-child *,
+.topLeft :last-child * {
+    margin-bottom: 0;
+    margin-left: 6px;
+}
+
+.topLeft *{
+    color: #000000 !important;
+}
+
+.topLeft img{
+    width: 16px;
+    height: 16px;
+    margin-top: 6px;
+    margin-bottom: 0;
+}
+
+
+/* Cart */
+.cartSidebarClose {
+    position: fixed;
+    width: 340px;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0;
+    background-color: #fff;
+    overflow: hidden;
+    z-index: 999999;
+     /* transform: translateX(100%);
+    visibility: hidden; */
+    transition: transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1),visibility 0.5s cubic-bezier(0.645, 0.045, 0.355, 1);
+    box-shadow: none;
+    touch-action: manipulation;
+}
+
+.cartSidebarClose .open {
+    transform: translate(0);
+    visibility: visible;
+}
+
+
+/* .content ul {
+    display: flex;
+} */
+
+
+/* .content > * {
+    margin-right: 16px;
+} */
+
+@media screen and (max-width: 991px) {
+    .loginBtn {
+        /* margin-top: 21px;
+        font-size: 17px; */
+    }
+
+    .logo img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .logo p {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        color: #000000;
+        margin-left: 10px;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    /* .content {
+        display: flex !important;
+        justify-content: space-between;
+        text-align: center;
+    } */
+
+}
